@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.main{
+    width: 80%;
+    margin-left: 10%;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+   
+}
+
+.bg{
+    background-image: url('/cover.jpg');
+    width: 100%;
+    height: 75vh;
+    /* -------------------- Important--------------------------- */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: contain;
+    border: 4px solid white;
+    margin-bottom: -30px;
+}
+.user_name{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.line{
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+
+}
+
+.flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_left{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin: 0px 0px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(148, 148, 148);
+    height: 50px;
+    width: auto;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.link:hover{
+    background-color: rgb(238, 236, 236);
+    font-weight: bold;
+}
+.post{
+    font-weight: bold;
+    color: #1877f2;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #1877f2;
+    margin: 10px;
+
+}
+.btn_top{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 232, 232);
+    color: rgb(100, 100, 100);
+    padding: 7px 20px;
+    margin: 5px;
+}
+.margin{
+    margin: 100px;
+}
+.line2{
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    margin-top: -6px;
+}
+.background{
+    /* background-color: #D4d8e8; */
+    background-color: #eff2f5 !important;
+    width: 100%;
+    height: 200vh;
+    
+}
+.intro{ 
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+
+/* box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75); */
+.intro_left{
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: 30px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 5px 13px -7px rgba(0, 0, 0, 0.75);
+}
+.intro_left p{
+    margin-top: 15px;
+}
+.images{margin: 30px 0px;}
+.imgs{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5px;
+}
+.intro_right{
+    margin-top: 35px;
+    width: 55%;
+}
+.box1{
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 5px 13px -7px rgba(0, 0, 0, 0.75);
+    background-color: white;
+
+}
+.box_head{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+}
+.avatar{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: contain;
+}
+.input{
+    background-color: #eff2f5;
+    width: 88%;
+    height: 25px;
+    margin-left: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+
+}
+.input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    outline-width: 0;
+}
+.flex_box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: gray;
+}
+
+.box_2{
+    background-color: #ffffff;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0px 5px 13px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+   color: gray; 
+}
+
+.post_hedr{
+    display: flex;
+    align-items: center;
+    margin:0px 20px;
+}
+.post_hedr p{
+    margin: 0px 10px;
+    margin-bottom: -10px;
+}
+
+.img_container{
+    border:1px solid lightgray;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+
+    
+}
+.img_Post{
+    height: 80vh;
+    width: 100% !important;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    
+}
